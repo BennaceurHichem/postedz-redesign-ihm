@@ -1,0 +1,31 @@
+# Empty CSS file for your own CSS
+
+.section-margin{
+
+margin-top:40px;
+margin-bottom: 50px;
+
+
+}
+
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+.navbar.center .navbar-inner .nav {
+    float: none;
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.flex{
+    display: flex;
+}
+
+.card-sizing{
+    width:400px;
+    height:400px;
+}
+.img-card{
+    width: inherit;
+    height:300px
+}
