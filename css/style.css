@@ -1,5 +1,13 @@
 # Empty CSS file for your own CSS
+body{
+    margin: 0;
+    padding: 0;
 
+  }
+*{
+    font-family: "montserrat",sans-serif;
+
+}
 .section-margin{
 
 margin-top:40px;
@@ -29,3 +37,80 @@ margin-bottom: 50px;
     width: inherit;
     height:300px
 }
+
+.timbre-img{
+    width: inherit;
+    height:300px;
+
+}
+.sp-imgs{
+
+}
+
+card-size{
+    width:300px;
+
+}
+
+
+
+
+.carousel-inner img {
+    margin: auto;
+  }
+
+  .hovbtn{
+      width: 200px;
+    background: none;
+    border: 2px solid rgba(0, 0, 0, 0.664);
+    border-left: 0px;
+    font-family: "montserrat",sans-serif;
+    font-size: x-large;
+    text-transform: uppercase;
+    padding:0px;
+    min-width: 300px;
+
+    margin-left: 0%;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+  }
+  .hovbtn:hover{
+    color: #fff;
+  }
+  .hovbtn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background:#F9CA21;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+  }
+  .btn1::before{
+    transform: scaleX(0);
+  }
+  .btn1:hover::before{
+    transform: scaleX(1);
+  }
+
+  .btn2::before{
+    transform: scaleY(0);
+  }
+  
+  .btn2:hover::before{
+    transform: scaleY(1);
+  }
+.h3{
+    margin:0px;
+}
+
+
+.titles-margin{
+margin-bottom: 10px;
+}
+
