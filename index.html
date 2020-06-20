@@ -2,10 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Poste dz prototype</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Add icon library -->
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">	    <title>Poste dz prototype</title>
 
     <meta name="description" content="Source code generated using layoutit.com">
 
@@ -16,12 +15,14 @@
 		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		  <span class="navbar-toggler-icon"></span>
 		</button>
-		<a class="navbar-brand navbar-nav" href="#">Navbar</a>
+		<a class="navbar-brand navbar-nav" href="#">
+			<img src="img/logo-round.png" style="width: 100px; height:100px;">
+		</a>
 	
 		<div class="collapse navbar-collapse" id="navbarNav">
 		  <ul class="nav navbar-nav navbar-center">
 			<li class="nav-item  active">
-			  <a class="nav-link" href="#actualite">Actualité <span class="sr-only">(current)</span></a>
+			  <button class="btn-warning mr-2 ml-5 p-0"><a class="nav-link" href="#actualite">Actualité <span class="sr-only">(current)</span></a></button>
 			</li>
 			<li class="nav-item active">
 			  <a class="nav-link" href="#sp">Service particuliers</a>
@@ -34,6 +35,13 @@
 			</li>
 			<li class="nav-item active text-right">
 				<a class="nav-link " href="#ad">Avis et appeles d’offre</a>
+			  </li>
+			  <li class="nav-item active text-right">
+				<button class="btn mr-2 ml-2 p-0" style="background-color: #F9CA21;"><a class="nav-link " href="#ad">Service en ligne</a></button>
+			  </li>
+			  <li class="nav-item active text-right">
+				<button class="btn mr-2 ml-5 p-0" style="background-color: #F9CA21;"><a class="nav-link " href="#ad"><i class="fa fa-user" aria-hidden="true"></i>
+					Connexion</a></button>
 			  </li>
 		  </ul>
 		</div>
@@ -60,6 +68,7 @@
 					</li>
 				</ol>
 				<div class="carousel-inner">
+					
 					<div class="carousel-item active">
 						<img class="d-block w-75" alt="Carousel Bootstrap First" src="img/carousel1.jpg">
 						<div class="carousel-caption">
@@ -91,14 +100,15 @@
 			</div>
 				<!-- FIN Carousel-->
 		</div>
+	
 	</div>
 
 	<div class="row section-margin shadow">
-		<div class="col-md-12 mt-5 mb-5 pb-5   ">
+		<div class="col-md-12">
 			<div class="row">
 				<div class="col-md-12 section-margin">
 				
-					<div class="d-flex justify-content-between" id="actualite">
+					<div class="d-flex justify-content-between	" id="actualite">
 						<button class="hovbtn btn1 titles-margin">
 														Actualité 
 								</button>
@@ -156,9 +166,9 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-12 mt-5 mb-5 pb-5   shadow">
-			<div class="d-flex justify-content-between" id="sp">
-				<button class="hovbtn btn1 titles-margin">
+		<div class="col-md-12    shadow">
+			<div class="d-flex justify-content-between  mt-5 mb-5" id="sp">
+				<button class="hovbtn btn1 titles-margin" style="width: max-content;">
 						Services Particuliers 
 				</button>
 				<h3 class="titles-margin">
@@ -185,9 +195,9 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-12 mt-5 mb-5 pb-5   shadow">
+		<div class="col-md-12  shadow">
 		<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12 mt-5 mb-5">
 					<div class="d-flex justify-content-between" id="sc">
 						<button class="hovbtn btn1 titles-margin">
 														Service CORPORATE
@@ -196,7 +206,7 @@
 							SERVICES DESTINÉS AUX PROFESSIONNELS & AUX ENTREPRISES					</h3>
 					</div>
 					
-					<div class="row">
+					<div class="row text-center mt-5">
 						<div class="col-md-4 text-center">
 							<img alt="Bootstrap Image Preview" src="img/C1.png" class="rounded">
 						</div>
@@ -204,7 +214,7 @@
 							<img alt="Bootstrap Image Preview" src="img/C2.png" class="rounded">
 						</div>
 						<div class="col-md-4 text-center">
-							<img alt="C3" src="img/C3.png" class="rounded">
+							<img alt="C3" src="img/C3.png" class="rounded ">
 
 						</div>
 					</div>
@@ -213,8 +223,8 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-12 mt-5 mb-5 pb-5   shadow">	
-			<div class="d-flex justify-content-between" id="philatelie">
+		<div class="col-md-12 shadow">	
+			<div class="d-flex justify-content-between mt-5 mb-5" id="philatelie">
 
 			<button class="hovbtn btn1 titles-margin">
 				PHILATELIE
@@ -223,7 +233,7 @@
 				TOUTES LES ÉMISSIONS DES TIMBRES DE L’ALGÉRIE DEPUIS 1962
 			</h3>
 			</div>
-			<div class="row text-center ">
+			<div class="row text-center mr-5 ml-5 ">
 			
 				<div class="col-md-6 text-center">
 					<div class="card card-size">
@@ -301,9 +311,10 @@
 				</div>
 			</div>
 		</div>
+	
 	</div>
-	<div class="row">
-		<div class="col-md-12 mt-5 mb-5 pb-5  ">
+	<div class="row m-5">
+		<div class="col-md-12 m-5 pb-5  ">
 			
 			<div class="row">
 				<div class="col-md-4">
@@ -320,7 +331,7 @@
 								Email:clientap@poste.dz
 						</li>
 						<li class="list-item">
-								Add image here 
+								<img style="width:200px " src="img/1530.png">
 						</li>
 					
 						<li class="list-item">
@@ -381,6 +392,7 @@
 		</div>
 	</div>
 </div>
+
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

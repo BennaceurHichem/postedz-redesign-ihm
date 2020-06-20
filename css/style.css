@@ -16,14 +16,7 @@ margin-bottom: 50px;
 
 }
 
-.navbar.center .navbar-inner {
-    text-align: center;
-}
-.navbar.center .navbar-inner .nav {
-    float: none;
-    display:inline-block;
-    vertical-align: middle;
-}
+
 
 .flex{
     display: flex;
@@ -113,4 +106,39 @@ card-size{
 .titles-margin{
 margin-bottom: 10px;
 }
+.navbar-nav.navbar-center {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  }
 
+
+  .btn-back{
+    background-color: #F9CA21;
+    border: 0px;
+    padding-top: 20%;
+    height:200%;
+    margin-bottom: 20%;
+  }
+
+
+  .btn-actualite{
+    border: none;
+
+  
+    width: 220px;
+    height:200px;
+    text-align-last: justify;
+    font-family: "montserrat",sans-serif;
+    text-transform: uppercase;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    background-size: 200%;
+    transition: 0.6s;
+  }
+  
+  .btn-actualite-back{
+    background-image: linear-gradient(to left,#FFC312,#EE5A24,#FFC312);
+  }
