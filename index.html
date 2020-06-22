@@ -6,6 +6,12 @@
 	<!-- Add icon library -->
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">	    <title>Poste dz prototype</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <meta name="description" content="Source code generated using layoutit.com">
 
@@ -17,7 +23,7 @@
 		  <span class="navbar-toggler-icon"></span>
 		</button>
 		<a class="navbar-brand navbar-nav" href="#">
-			<img src="img/logo-round.png" style="width: 100px; height:100px;">
+			<img src="img/logo-round.png" class="animate__rotateOut" style="width: 100px; height:100px;">
 		</a>
 	
 		<div class="collapse navbar-collapse" id="navbarNav">
@@ -109,21 +115,21 @@
 			<div class="row">
 				<div class="col-md-12 section-margin">
 				
-					<div class="d-flex justify-content-between	" id="actualite">
-						<button class="hovbtn btn1 titles-margin">
-														Actualité 
-								</button>
+				
 
-							
-							
-									<h3 class="titles-margin">
-										SUIVEZ AU QUOTIDIEN TOUTE L’ACTUALITÉ D’aLGÉRIE POSTE
-									</h3>
-
-
-					</div>
-
+					<div class="d-flex bd-highlight mb-3" data-aos="fade-right">
+						<div class="p-2 bd-highlight">
+							<button class="hovbtn btn1 ">
+								Actualité							</button>
 						
+					</div>
+					
+					<div class="ml-auto p-2 bd-highlight">	
+							<h3 style="margin-top: 12px;">
+								SUIVEZ AU QUOTIDIEN TOUTE L’ACTUALITÉ D’aLGÉRIE POSTE
+							</h3>
+						</div>
+					</div>
 				
 					
 						
@@ -168,15 +174,21 @@
 	</div>
 	<div class="row">
 		<div class="col-md-12    shadow">
-			<div class="d-flex justify-content-between  mt-5 mb-5" id="sp">
-				<button class="hovbtn btn1 titles-margin" style="width: max-content;">
+			
+			<div class="d-flex bd-highlight mb-3" data-aos="fade-right">
+				<div class="p-2 bd-highlight">
+					<button class="hovbtn btn1 ">
 						Services Particuliers 
-				</button>
-				<h3 class="titles-margin">
-					DÈCOUVREZ LES SERVICES DESTINÉS AU GRAND PUBLIC
-				</h3>
+					</button>
+				
 			</div>
-			 
+			
+			<div class="ml-auto p-2 bd-highlight">	
+					<h3 style="margin-top: 12px;">
+						DÈCOUVREZ LES SERVICES DESTINÉS AU GRAND PUBLIC
+					</h3>
+				</div>
+			</div>
 			
 			<div class="row mr-5 ml-5">
 				<div class="col-md-12">
@@ -199,13 +211,22 @@
 		<div class="col-md-12  shadow">
 		<div class="row">
 				<div class="col-md-12 mt-5 mb-5">
-					<div class="d-flex justify-content-between" id="sc">
-						<button class="hovbtn btn1 titles-margin">
-														Service CORPORATE
-						</button>
-						<h3 class="titles-margin">
-							SERVICES DESTINÉS AUX PROFESSIONNELS & AUX ENTREPRISES					</h3>
-					</div>
+				
+						<div class="d-flex bd-highlight mb-3" data-aos="fade-right">
+							<div class="p-2 bd-highlight">
+								<button class="hovbtn btn1 ">
+									Service CORPORATE
+
+								</button>
+							
+						</div>
+						
+						<div class="ml-auto p-2 bd-highlight">	
+								<h3 style="margin-top: 12px;">
+									SERVICES DESTINÉS AUX PROFESSIONNELS & ENTREPRISES					</h3>
+								</h3>
+							</div>
+						</div>
 					
 					<div class="row text-center mt-5">
 						<div class="col-md-4 text-center">
@@ -227,12 +248,21 @@
 		<div class="col-md-12 shadow">	
 			<div class="d-flex justify-content-between mt-5 mb-5" id="philatelie">
 
-			<button class="hovbtn btn1 titles-margin">
-				PHILATELIE
-			</button>
-			<h3 class="titles-margin">
-				TOUTES LES ÉMISSIONS DES TIMBRES DE L’ALGÉRIE DEPUIS 1962
-			</h3>
+				<div class="d-flex bd-highlight mb-3" data-aos="fade-right">
+					<div class="p-2 bd-highlight">
+						<button class="hovbtn btn1 ">
+							PHILATELIE
+						</button>
+					
+				</div>
+				
+				<div class="ml-auto p-2 bd-highlight">	
+						<h3 style="margin-top: 12px;">
+						ÉMISSIONS DES TIMBRES DE L’ALGÉRIE
+					</h3>
+					</div>
+				</div>
+						
 			</div>
 			<div class="row text-center mr-5 ml-5 ">
 			
@@ -293,16 +323,27 @@
 			
 			<div class="row">
 				<div class="col-md-12">
-					<div class="d-flex justify-content-between" id="ad">
-					<button class="hovbtn btn1 titles-margin">APPEL D'OFFRE</button>
+					<div class="d-flex justify-content-between mt-5 mb-5" id="philatelie">
 
-					<h3 class="titles-margin">
-						CONSULTEZ LES TOUS DERNIERS APPELS D’OFFRES
-					</h3>
+						<div class="d-flex bd-highlight mb-3" data-aos="fade-right">
+							<div class="p-2 bd-highlight">
+								<button class="hovbtn btn1 ">
+									APPELS D'OFFRE
+								</button>
+							
+						</div>
+						
+						<div class="ml-auto p-2 bd-highlight">	
+								<h3 style="margin-top: 12px;">
+									CONSULTEZ LES TOUS DERNIERS APPELS D’OFFRES
+								</h3>
+							</div>
+						</div>
+								
 					</div>
 					<div class="d-flex justify-content-center m-5">
 
-					<button class="btn-warning mt-5 mr-5 upw-btn">
+					<button class="btn-warning mt-5 mr-5 upw-btn animate__fadeInLeft">
 						Direction Générale
 					</button> 
 					<button class="btn-warning ml-5 mt-5  upw-btn">
@@ -317,7 +358,7 @@
 	
 </div>
 <!--footer starts from here-->
-<footer class="footer">
+<footer class="footer" class="col-md-12">
 	<div class="container bottom_border">
 	<div class="row">
 	<div class=" col-sm-4 col-md col-sm-4  col-12 col">
@@ -391,7 +432,7 @@ Présentation									</li>
 	</div>
 	
 	
-	<div class=" col-sm-4 col-md  col-12 col">
+	<div class=" text-center col-sm-12 col-md-12  col-12 col">
 		<h3 class="footer-title">
 		Présence postale
 							</h3>
@@ -461,6 +502,9 @@ Présentation									</li>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+	<script src="js/scripts.js"></script>
+	<script>
+		AOS.init();
+	  </script>
   </body>
 </html>
